@@ -1,0 +1,55 @@
+let MyResume = {
+    "For Project": {
+        "name": "SAKTHI DHASAN V",
+        "email": "sakthidhasan.velmurugan@gmail.com",
+        "phone": +919345478978,
+        "qualification": "Diploma",
+        "location": {
+            "address": "gurunathar kovil street,sri ramnagar",
+            "postalcode": 630106,
+            "city": "karaikudi",
+            "state": "Tamilnadu",
+            "country": "India"
+        },
+        "profile": {
+            "github":"http://github.com/sakthidhasanKarthiga"
+        }  
+    },
+    "Educational skills": [
+        {
+            "institution": "central electrochemical research institute",
+            "department": "Draughtsman civil",
+            "start date": "23.07,2020",
+            "end date": "24.07.2021",
+            "summary": "I am the site engineer at that institute,i do renovation work on everyday,i have one year of experience"
+        },
+    ],
+    "Education": [
+        {
+            "School": "Ariyava montessori matric Hr Sec School",
+            "year of passing":2016,
+            "marks in percentage":80,
+            "Medium": "English"
+        }
+    ],
+    "Skills": [
+        {
+            "name": "javascript",
+            "level": "beginner"
+        }
+    ],
+    "Languages": [
+        {
+            "Languages": "Tamil,English,Hindi"
+        }
+    ],
+    "Interests": [
+        {
+            "Name": "youtuber"
+        },
+        {
+            "Name": "playing volleyball"
+        }
+    ]
+};
+console.log(MyResume);

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Country Flags</title>
+  </head>
+  <body>
+    <ul id="flags"></ul>
+    
+    <script>
+      fetch('https://restcountries.com/v3.1/all')
+        .then(response => response.json())
+        .then(data => {
+          const flagsList = document.getElementById('flags');
+          data.forEach(country => {
+            const flag = country.flags.svg;
+            const li = document.createElement('li');
+            const img = document.createElement('img');
+            img.src = flag;
+            li.appendChild(img);
+            flagsList.appendChild(li);
+          })
+        })
+        .catch(error => console.error(error));
+    </script>
+  </body>
+</html>
